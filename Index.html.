@@ -1,1 +1,28 @@
+<div class="game-container">
+  <h1>NEON<span>STRIKE</span></h1>
+  
+  <div class="controls">
+    <select id="difficulty">
+      <option value="pvp">Human vs Human</option>
+      <option value="easy">AI: Easy</option>
+      <option value="normal">AI: Normal</option>
+      <option value="hard">AI: Hard</option>
+    </select>
+  </div>
 
+  <div id="statusText">Player X's Turn</div>
+  
+  <div class="grid">
+    <div class="cell" data-index="0"></div>
+    <div class="cell" data-index="1"></div>
+    <div class="cell" data-index="2"></div>
+    <div class="cell" data-index="3"></div>
+    <div class="cell" data-index="4"></div>
+    <div class="cell" data-index="5"></div>
+    <div class="cell" data-index="6"></div>
+    <div class="cell" data-index="7"></div>
+    <div class="cell" data-index="8"></div>
+  </div>
+
+  <button id="resetBtn">PLAY AGAIN</button>
+</div>
