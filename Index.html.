@@ -1,6 +1,6 @@
 <div class="game-container">
   <h1>NEON<span>STRIKE</span></h1>
-  
+<link rel="stylesheet" href="style.css">
   <div class="controls">
     <select id="difficulty">
       <option value="pvp">Human vs Human</option>
@@ -26,3 +26,4 @@
 
   <button id="resetBtn">PLAY AGAIN</button>
 </div>
+<script src="script.js"></script>
